@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Timeline</title>
+  </head>
+  <body>
+      <table id="list">
+        <tbody>
+
+        </tbody>
+
+      </table>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+
+
+
+    <!--firebase-->
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyD_k0VmxfvV6WwI1t3GckLxnOnBoE3UFlQ",
+      authDomain: "medical-app-4f210.firebaseapp.com",
+      databaseURL: "https://medical-app-4f210.firebaseio.com",
+      projectId: "medical-app-4f210",
+      storageBucket: "medical-app-4f210.appspot.com",
+      messagingSenderId: "491954732077",
+      appId: "1:491954732077:web:6a427cf6c84dca5090cca4"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const storageService = firebase.storage();
+    const storageRef = storageService.ref();
+  </script>
+  <script src="index.js"></script>
+  </body>
+</html>

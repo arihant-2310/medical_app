@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--Main stylesheet-->
+    <link rel="stylesheet" href="logstyle.css">
+  </head>
+  <body>
+
+     <!----login dialoig--->
+    <dialog id="loginDialog" class="mdl-dialog">
+     <h4 class="mdl-dialog__title">Sign In</h4>
+     <div class="mdl-dialog__content">
+       <p id="loginError"></p>
+       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+       <input class="mdl-textfield__input" type="text" id="loginEmail">
+       <label class="mdl-textfield__label" for="sample3">Email...</label>
+       </div>
+       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+       <input class="mdl-textfield__input" type="text" id="loginPassword">
+       <label class="mdl-textfield__label" for="sample3">Password...</label>
+ </div>
+     </div>
+     <div class="mdl-dialog__actions">
+       <button id="loginBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+        SIGN IN
+       </button>
+       <button onclick="window.location.href='docindex.html'" id="registerBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+        SIGN UP
+       </button>
+        <div id="loginProgress"class="mdl-spinner mdl-js-spinner is-active"></div>
+     </div>
+    </dialog>
+
+      <div class="login-cover">
+        <!-- MDL Spinner Component -->
+        <div class="page-loader mdl-spinner mdl-js-spinner is-active"></div>
+      </div>
+
+  <!--Main page-->
+    <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header">
+    <div class="mdl-layout-icon"></div>
+    <div class="mdl-layout__header-row">
+    <span class="mdl-layout__title">Doctor <span class="page-tile-span">|</span>
+    <span class="page-tile-span">Home</span> </span>
+    <div class="mdl-layout-spacer"></div>
+    <nav class="mdl-navigation">
+      <button id="signoutBtn"class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+      SIGN OUT <i class="button-righticon material-icons">account_circle</i>
+      </button>
+    </nav>
+  </div>
+</header>
+  <div class="mdl-layout__drawer">
+  </div>
+    <div id="record">
+      <a href="doc_form_final.html"target="_blank">Add Patient Record</a>
+    </div>
+
+
+
+</div>
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD_k0VmxfvV6WwI1t3GckLxnOnBoE3UFlQ",
+    authDomain: "medical-app-4f210.firebaseapp.com",
+    databaseURL: "https://medical-app-4f210.firebaseio.com",
+    projectId: "medical-app-4f210",
+    storageBucket: "",
+    messagingSenderId: "491954732077",
+    appId: "1:491954732077:web:6a427cf6c84dca5090cca4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="logindex.js"></script>
+  </body>
+</html>

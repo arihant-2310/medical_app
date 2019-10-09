@@ -1,0 +1,47 @@
+{
+  "rohit" : {
+    "-LpSlDG4alXONcp3XCku" : {
+      "Date" : "2019-02-01",
+      "Description" : "A mild cold.",
+      "Diseases" : "cold",
+      "Prescriptions" : "Dolo-650",
+      "Symptoms" : "Sneeze"
+    }
+  },
+  "Jishnu" : {
+    "-LpOd0aHksDrioczql0E" : {
+      "Date" : "2019-09-24",
+      "Description" : "well built and nourished",
+      "Diseases" : "no disease",
+      "Prescriptions" : "enacin\nstemetil",
+      "Symptoms" : "psycho"
+    }
+  },
+  "abhiram" : {
+    "-LpNmaqNYpHdsJoNJ70d" : {
+      "Date" : "",
+      "Description" : "well built",
+      "Diseases" : "cold",
+      "Prescriptions" : "dolo ",
+      "Symptoms" : "sneezing"
+    }
+  },
+  "arihant" : {
+    "-LpNmAahclVISsXThzNt" : {
+      "Date" : "52123-01-08",
+      "Description" : "he if fine",
+      "Diseases" : "cold",
+      "Prescriptions" : "dolo 650",
+      "Symptoms" : "sneeze"
+    }
+   },
+  "udesh" : {
+    "-LpNmrObygjtrFPnZDfq" : {
+      "Date" : "",
+      "Description" : "super fever",
+      "Diseases" : "nothing",
+      "Prescriptions" : "dolo",
+      "Symptoms" : "sneeze"
+    }
+  }
+}
